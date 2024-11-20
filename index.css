@@ -1,19 +1,57 @@
-#clock-container{
-    display:flex;
-    justify-content: center;
-    font-size: 3rem;
-    align-items: center;
-    height: 100vh;
-
+body{
+    text-align: center;
+    background-color: rgb(156, 150, 150);
 }
 #clock{
+    margin-top: 1rem;
     font-family: monospace;
-    font-size: 6.5rem;
-    font-weight: bold;
+    font-size: 5.5rem;
     text-align: center;
-    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.511);
+    text-shadow: 3px 3px 5px black;
 }
+#container{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    margin: auto;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%);
+    align-items: center;
+    font-family: Arial,sans-serif;
+}
+h1{
+    font-size: 5rem;
+    font-family: Arial,sans-serif;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-bottom: 2rem;
+    margin-left:1rem;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+}
+#Start{
+    background-color: rgb(15, 249, 15);
+    color: white;
+}
+#Start:hover{
+    background-color: rgba(8, 227, 0, 1);
+}
+#Stop{
+    background-color: red;
+    color: white;
+}
+#Stop:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#Reset{
+    background-color: blue;
+    color: white;
+}
+#Reset:hover{
+    background-color: rgba(0, 0, 255, 0.5);
 
-
-
-
+}
